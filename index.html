@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CALCULATOR</title>
+    <link rel="stylesheet" href="index.css" />
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <section class="Calc-screen">
+      <div id="screen"><div id="inner-screen"></div></div>
+      <div class="ton">
+        <button onclick="output(this.value)" class="btn btn-yellow" value="(">
+          (
+        </button>
+        <button onclick="output(this.value)" class="btn btn-yellow" value=")">
+          )
+        </button>
+        <button onclick="output(this.value)" class="btn btn-yellow" value="%">
+          %
+        </button>
+        <button onclick="output(this.value)" class="btn btn-red" value="ON">
+          ON
+        </button>
+        <button onclick="output(this.value)" class="btn btn-grey" value="9">
+          9
+        </button>
+
+        <button onclick="output(this.value)" class="btn btn-grey" value="8">
+          8
+        </button>
+        <button onclick="output(this.value)" class="btn btn-grey" value="7">
+          7
+        </button>
+        <button onclick="output(this.value)" class="btn btn-yellow" value="+">
+          +
+        </button>
+        <button onclick="output(this.value)" class="btn btn-grey" value="6">
+          6
+        </button>
+        <button onclick="output(this.value)" class="btn btn-grey" value="5">
+          5
+        </button>
+
+        <button onclick="output(this.value)" class="btn btn-grey" value="4">
+          4
+        </button>
+        <button onclick="output(this.value)" class="btn btn-yellow" value="/">
+          /
+        </button>
+        <button onclick="output(this.value)" class="btn btn-grey" value="3">
+          3
+        </button>
+        <button onclick="output(this.value)" class="btn btn-grey" value="2">
+          2
+        </button>
+        <button onclick="output(this.value)" class="btn btn-grey" value="1">
+          1
+        </button>
+
+        <button onclick="output(this.value)" class="btn btn-yellow" value="*">
+          *
+        </button>
+        <button onclick="del()" class="btn btn-red" value="DEL">DEL</button>
+        <button onclick="output(this.value)" class="btn btn-grey" value="0">
+          0
+        </button>
+        <button onclick="output(this.value)" class="btn btn-yellow" value="^">
+          ^
+        </button>
+        <button onclick="output(this.value)" class="btn btn-yellow" value="-">
+          -
+        </button>
+
+        <button onclick="clearer()" class="btn btn-clear" value="CE">CE</button>
+        <button onclick="output(this.value)" class="btn btn-yellow" value="+/-">
+          +/-
+        </button>
+        <button onclick="output(this.value)" class="btn btn-yellow" value=".">
+          .
+        </button>
+        <button onclick="calc()" class="btn btn-equal" value="=">=</button>
+      </div>
+    </section>
+  </body>
+</html>
